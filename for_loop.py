@@ -5,14 +5,15 @@ def main():
     string2 = 'A \
                B \
                C'
-    print string2
+    print(string2)
     for value in string1:
-        print value
+        print(value)
 #        print value,
-    lst = [1,2,3,4]
-    print '\n'
+    lst = [1, 2, 3, 4]
+    print('\n')
     for item in lst:
-        print item
+        print(item)
+
 
 if __name__ == '__main__':
     main()

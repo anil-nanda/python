@@ -3,35 +3,35 @@
 
 def main():
     name = 'Abc'
-    print name.lower()
-    print name.upper()
-    print name.isalpha()
+    print(name.lower())
+    print(name.upper())
+    print(name.isalpha())
 
     if name.isalpha():
-        print name+' contains only alphabets'
+        print(name+' contains only alphabets')
     else:
-        print name+' contains non alphabets'
+        print(name+' contains non alphabets')
 
 # Check whether a string is digit or not
 
     digits = '1234a'
-    print digits.isdigit()
+    print(digits.isdigit())
 
-#Join method
+# Join method
 
-    lst = ['1','2','3','4']
+    lst = ['1', '2', '3', '4']
     b = '-'
-    print b.join(lst)
+    print(b.join(lst))
 
 # Center aligns the given string
 
     a = 'abc'
-    print a.center(5,'-') 
+    print(a.center(5, '-'))
 
-#Split a given string with specified delimiter
+# Split a given string with specified delimiter
 
     a = 'aaa.bbb.ccc'
-    print a.split('.')
+    print(a.split('.'))
 
 # Check whether given string is blank or not
 
@@ -41,19 +41,19 @@ def main():
 # Check whether a string starts or ends with a another string
 
     a = 'ABC'
-    print a.startswith('A')
-    print a.endswith('d')
+    print(a.startswith('A'))
+    print(a.endswith('d'))
 
 
 # find a substring
 
     a = 'abcd'
-    print a.find('c')
+    print(a.find('c'))
 
 # Replace a particular string
 
     a = 'abcdc'
-    print a.replace('c','e')
+    print(a.replace('c', 'e'))
 
 
 if __name__ == '__main__':
